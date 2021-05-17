@@ -2,7 +2,10 @@
 <p>
   Start editing to see some magic happen :)
 </p>
+{{durationOfSOund}}
+<div>
+  <button class="btn btn-primary" style="margin:10px;" (click)="playSound()">Play</button>
+  <button class="btn btn-primary" style="margin:10px;" (click)="pauseSound()">Pause</button>
+  <button class="btn btn-primary" style="margin:10px;" (click)="stopSound()">Stop</button>
 
-<button (click)="playSound()">Play</button><br />
-<button (click)="pauseSound()">Pause</button><br />
-<button (click)="stopSound()">Stop</button>
+</div>
